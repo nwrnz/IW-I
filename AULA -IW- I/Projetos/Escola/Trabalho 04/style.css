@@ -1,0 +1,17 @@
+body{
+    background-color: azure;
+}
+h1{
+   color:slategrey;
+   text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+img {
+    width: 300px;
+    margin: auto; /*por algum motivo o text-align não está indo */
+    display: block;
+    border: 1px solid;
+}
