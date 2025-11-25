@@ -1,0 +1,35 @@
+body {
+    background-color: #dddddd;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container{
+  background-color: #0093AD;
+  color: #222;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 200px;
+  margin-top: 80px;
+  max-width: 350px;
+  position: relative;
+  left: 380px;
+}
+.container p{
+  color: white;
+}
+.container button{
+  background-color: #222;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  max-width: 150px;
+  margin-bottom: 10px;
+  padding: 10px;
+  transition-duration: 0.5s;
+  position: relative;
+  left: 380px;
+  top: 30px;
+}  
+h1{
+  margin-bottom: 100px;
+}

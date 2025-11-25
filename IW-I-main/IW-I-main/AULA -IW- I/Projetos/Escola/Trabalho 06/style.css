@@ -1,0 +1,26 @@
+.image{
+    width: 500px;
+    height: 500px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-frutas{
+    font-size: 200px;
+    margin: 20px;
+    text-align: center;
+}
+@media (max-width: 1020px){
+    .container{
+        flex-direction: column;
+    }
+    .image{
+        width: 200px;
+        height: 200px;
+    }
+    .text-frutas{
+        font-size: 100px;
+    }
+}
