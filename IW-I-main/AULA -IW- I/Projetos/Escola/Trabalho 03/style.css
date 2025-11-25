@@ -1,0 +1,41 @@
+body{
+background-image: url(./snowbo.jpg);
+}
+body::after{
+    content: '';
+    position:  absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: -1;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    color: aliceblue;
+    font-size: 35px;
+}
+h1, h2, .celula, .linha{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+}
+.linha{
+    color: aliceblue;
+}
+.celula, .linha {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.celula{
+    background-color:aliceblue;
+}
+h1{
+    color: aliceblue;
+}

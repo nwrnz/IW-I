@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:white;
+}
+main h1{
+  text-align: center;
+  margin-bottom: 70px; 
+}
+  .margin0 {
+    margin: 0;
+  }
+  .marginAuto {
+    margin: auto; 
+    max-width: 1600px;
+  }
+  header {
+    color:  white  ;
+    padding: 20px 0;
+    background-color: #222;
+  }
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  .menu a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  .menu a:hover {
+  color: #9fa2a3;
+}
+#projetos h2{
+  margin-left: 20px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: #0f0e0d;
+  text-align: center; 
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 20px;
+  color: white;
+}
+#projetos img{
+  width: 600px; 
+  height: 400px;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#projetos img:hover{
+  transform: scale(1.05);
+}
+.projeto_one{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  margin-top: 40px;
+}
+.projeto_one p{
+  word-break: break-word;
+  max-width: 600px; 
+  
+}
+.projeto_two{
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  margin-top: 40px;
+}
+.projeto_two p{
+  word-break: break-word;
+  max-width: 600px;
+}
+.contato_p{
+  text-align: center;
+  margin-top: 100px;
+}
+.card {
+  background-color: white;
+  flex: 1;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.8);
+  border-radius: 8px;
+  transition: transform 0.3s;
+  max-width: 500px;
+  min-height: 200px;
+  position: relative;
+  left: 700px;
+  margin-top: 60px;
+}
+.card p{
+  margin-top: 10px;
+  color: #222;
+}
+.card h3{
+  margin-top: 20px;
+  color: #222;
+}
+.card:hover {
+transform: translateY(-5px);
+}
+footer {
+  background-color: #222;
+  color:honeydew;
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 80px;
+
+}

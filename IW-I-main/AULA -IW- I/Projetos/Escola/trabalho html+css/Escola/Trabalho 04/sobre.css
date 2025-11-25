@@ -1,0 +1,21 @@
+body{
+    background-color: azure;
+}
+h1{
+    color:slategrey;
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+img{
+    width: 300px;
+    margin: auto;
+    display: block;
+    border: 1px solid;
+}
+.lista{
+    font-family: Arial, Helvetica, sans-serif;
+}
